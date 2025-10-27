@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
-import CTA from "./components/CTA";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <main>
         <Hero />
         <Features />
-        <CTA />
+        <Testimonials />
       </main>
       <footer className="border-t border-gray-100 py-10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
