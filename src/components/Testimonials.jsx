@@ -39,8 +39,8 @@ export default function Testimonials() {
                     <stop offset="1" stopColor="#6B7280" />
                   </linearGradient>
                 </defs>
-                <rect x="0" y="8" width="30" height="8" rx="4" fill="url(#lg-` + brand + `)" />
-                <rect x="35" y="8" width="30" height="8" rx="4" fill="url(#lg-` + brand + `)" />
+                <rect x="0" y="8" width="30" height="8" rx="4" fill={`url(#lg-${brand})`} />
+                <rect x="35" y="8" width="30" height="8" rx="4" fill={`url(#lg-${brand})`} />
                 <text x="70" y="16" fontSize="12" fill="#6B7280">{brand}</text>
               </svg>
             </div>
